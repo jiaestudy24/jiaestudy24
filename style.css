@@ -34,6 +34,9 @@ body {
     left: 0px;
     top: 52px;
     padding: 0px;
+
+    border-radius: 3px;
+   
 }
 
 .task {
@@ -46,4 +49,8 @@ body {
 .task-done {
     text-decoration: line-through;
     background-color: lightgrey;
+}
+
+.task-tabs div {
+    cursor: pointer;
 }
